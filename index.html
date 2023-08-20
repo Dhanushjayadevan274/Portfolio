@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhanush Jayadevan - Resume</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .header {
+      background-color: #3498db;
+      color: #fff;
+      text-align: center;
+      padding: 4rem 0;
+      border-bottom: 8px solid #2980b9;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .section {
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1,
+    h2 {
+      margin: 0;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+
+    h2 {
+      margin-top: 1.5rem;
+      font-size: 2rem;
+      color: #3498db;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 0.5rem;
+    }
+
+    p {
+      margin: 0 0 1.5rem;
+      font-size: 1.2rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 2rem;
+      color: #555;
+    }
+
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    .toggle-button {
+      cursor: pointer;
+      font-size: 1.2rem;
+      color: #3498db;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    /* Star rating styles */
+    .skill-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .skill-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .skill-label {
+      flex: 1;
+      font-size: 1.2rem;
+    }
+
+    .skill-rating {
+      display: inline-block;
+      font-size: 1.2rem;
+      color: #f39c12;
+      /* Star color */
+      margin-left: 1rem;
+    }
+
+    .skill-rating::before {
+      content: '\2605\2605\2605\2605\2605';
+      /* Five filled stars */
+      color: #ccc;
+      /* Empty star color */
+    }
+
+    .skill-item:hover .skill-rating::before {
+      content: attr(data-rating);
+      /* Set the data-rating attribute as stars */
+      color: #f39c12;
+      /* Hovered star color */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>DHANUSH JAYADEVAN</h1>
+  </div>
+  <div class="content">
+    <div class="section">
+      <h2 class="toggle-button">Objective</h2>
+      <p><em>"To seize an opportunity and set ambitious goals, channeling my innovation and interpersonal skills into a
+          challenging role that benefits both the organization and my personal growth."</em></p>
+    </div>
+
+    <!-- Contact Information Section -->
+    <div class="section">
+      <h2 class="toggle-button">Contact Information</h2>
+      <p>📞 Mobile: +91 8137091091<br>📧 Email: dhanushjayadevan274@gmail.com<br>💼 LinkedIn: <a
+          href="https://www.linkedin.com/in/dhanush-jayadevan-274276269">linkedin.com/in/dhanush-jayadevan</a></p>
+    </div>
+
+    <!-- Personal Details Section -->
+    <div class="section">
+      <h2 class="toggle-button">Personal Details</h2>
+      <!-- <p>🎂 Date of Birth: April 27, 2000<br>🚹 Gender: Male</p> -->
+      <p>🎂 Date of Birth: April 27, 2000</p>
+    </div>
+    <!-- Education Section -->
+    <div class="section">
+      <h2 class="toggle-button">Education</h2>
+      <p><strong>B-Tech in Computer Science and Engineering</strong><br>Presidency University, 2022<br>🎓 CGPA: 6.06</p>
+      <p><strong>PUC (PCMCs)</strong><br>Dolphin’s Educational Trust, 2018<br>🎓 Percentage: 77.8%</p>
+      <p><strong>SSLC</strong><br>Nandini Vidya Nikethana, 2016<br>🎓 Percentage: 76%</p>
+    </div>
+    <!-- Projects Section -->
+    <div class="section">
+      <h2 class="toggle-button">Projects</h2>
+      <ul>
+        <li><strong>Cyber Attack Detection Using Machine Learning</strong></li>
+        <p>Description: Developed a machine learning model to detect and classify cyber security attacks. Collaborated
+          with a team to suggest new ideas, prepare project reports, and create presentation materials.</p>
+        <p>Duration: 6 months</p>
+
+        <li><strong>Mini project on BUS RESERVATION SYSTEM (Python)</strong></li>
+        <p>Description: Designed and implemented a bus reservation system using Python. Streamlined the ticket booking
+          process and passenger information management. Collaborated with team members to develop project reports and
+          presentation materials.</p>
+        <p>Duration: 3 months</p>
+      </ul>
+    </div>
+    <!-- Skills Section -->
+    <div class="section">
+      <h2 class="toggle-button">Skills</h2>
+      <ul class="skill-list">
+        <li class="skill-item">
+          <span class="skill-label"><strong>Programming Languages:</strong>
+            <ul>
+              <li>Java <span class="skill-rating" data-rating="★★★★★"></span></li>
+              <li>C programming <span class="skill-rating" data-rating="★★★☆☆"></span></li>
+              <li>C++ Programming <span class="skill-rating" data-rating="★★★☆☆"></span></li>
+            </ul>
+          </span>
+        </li>
+        <li class="skill-item">
+          <span class="skill-label"><Strong>Oops Concepts:</Strong> Inheritance, Polymorphism, Encapsulation,
+            Abstraction</span>
+          <span class="skill-rating" data-rating="★★★★☆"></span>
+        </li>
+        <li class="skill-item">
+          <span class="skill-label"><strong>Database:</strong> MySQL, SQL PLUS</span>
+          <span class="skill-rating" data-rating="★★★★★"></span>
+        </li>
+        <li class="skill-item">
+          <span class="skill-label"><Strong>Web TechnologiesWeb Technologies:</Strong> HTML, CSS, BOOTSTRAP,
+            JavaScript</span>
+          <span class="skill-rating" data-rating="★★★★☆"></span>
+        </li>
+        <li class="skill-item">
+          <span class="skill-label"><strong>Software Development Life Cycle (SDLC)</strong></span>
+          <span class="skill-rating" data-rating="★★★☆☆"></span>
+        </li>
+      </ul>
+    </div>
+    <!-- Java Full Stack Development Course Section -->
+    <div class="section">
+      <h2 class="toggle-button">Java Full Stack Development Course</h2>
+      <p><strong>Institute:</strong> J Spiders<br>
+        <strong>Duration:</strong> November 2022 - June 2023<br>
+        <strong>Skills Acquired:</strong><br>
+        🔹 Proficiency in Java programming<br>
+        🔹 Strong understanding of MySQL database management<br>
+        🔹 Familiarity with web technologies
+      </p>
+    </div>
+
+    <!-- Additional Skills Section -->
+    <div class="section">
+      <h2 class="toggle-button">Additional Skills</h2>
+      <ul>
+        <li>Quick learner with an aptitude for understanding complex concepts</li>
+        <li>Effective communication skills, both written and verbal</li>
+        <li>Ability to thrive in challenging environments</li>
+        <li>Proven capability to handle work pressure</li>
+      </ul>
+    </div>
+    <!-- Languages Known Section -->
+    <div class="section">
+      <h2 class="toggle-button">Languages Known</h2>
+      <ul class="skill-list">
+        <li class="skill-item">
+          <span class="skill-label">English</span>
+          <span class="skill-rating" data-rating="★★★★★"></span>
+        </li>
+        <li class="skill-item">
+          <span class="skill-label">Malayalam</span>
+          <span class="skill-rating" data-rating="★★★★★"></span>
+        </li>
+        <li class="skill-item">
+          <span class="skill-label">Kannada</span>
+          <span class="skill-rating" data-rating="★★★★★"></span>
+        </li>
+        <li class="skill-item">
+          <span class="skill-label">Hindi</span>
+          <span class="skill-rating" data-rating="★★★★★"></span>
+        </li>
+        <li class="skill-item">
+          <span class="skill-label">Telugu</span>
+          <span class="skill-rating" data-rating="★★★★★"></span>
+        </li>
+        <li class="skill-item">
+          <span class="skill-label">Tamil</span>
+          <span class="skill-rating" data-rating="★★★★★"></span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Hobbies Section -->
+    <div class="section">
+      <h2 class="toggle-button">Hobbies</h2>
+      <ul>
+        <li>Playing Chess</li>
+        <li>Reading Books</li>
+        <!-- <li>Playing Carrom Board</li>
+        <li>Cricket</li> -->
+      </ul>
+    </div>
+
+    <!-- Achievements and Activities Section -->
+    <div class="section">
+      <h2 class="toggle-button">Achievements and Activities</h2>
+      <ul>
+        <li>Certificate Course in Software Engineering Virtual Experience Program by <strong> Goldman Sachs</strong>
+        </li>
+        <li>Volunteered at Blood Donation Camp hosted by Presidency University</li>
+        <!-- <li>Participated in District-level High Jump Competition</li>
+        <li>Contributed to the school Science Exhibition</li>
+        <li>Coordinated HR event in Presidency University's management meet</li> -->
+      </ul>
+    </div>
+
+    <!-- Declaration Section -->
+    <!-- <div class="section">
+      <h2 class="toggle-button">Declaration</h2>
+      <p>I hereby declare that the above-mentioned information is accurate to the best of my knowledge, and I bear the responsibility for its correctness.</p>
+      <p><strong>Dhanush Jayadevan</strong><br>
+      <em>Place: Bengaluru</em></p>
+    </div> -->
+
+    <script>
+      const toggleButtons = document.querySelectorAll('.toggle-button');
+      toggleButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const section = button.nextElementSibling;
+          section.classList.toggle('hidden');
+        });
+      });
+    </script>
+  </div>
+</body>
+
+</html>
